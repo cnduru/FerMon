@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 	url(r'^readings/$', 'watch.views.readings', name = 'readings'),
 	url(r'^registerReading/$', 'watch.views.registerReading', name='registerReading'),
+    url(r'^readingData/$', 'watch.views.readingData', name = 'readingData'),
 ]
